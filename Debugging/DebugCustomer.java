@@ -9,9 +9,13 @@ public class DebugCustomer
        this.name = name;
        credit = credit;
     }
+
+    public DebugCustomer() {
+    }
+
     public void display()
     {
        System.out.println("Customer #" + idNumber +
-          " Name: " +  name + "\nCredit limit $" + creditLimit)
+          " Name: " +  name + "\nCredit limit $" + creditLimit);
     }
 }

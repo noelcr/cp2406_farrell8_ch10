@@ -1,7 +1,13 @@
 public class DebugBook
 {
    protected int pages;
-   public void DebugBook(int pgs)
+    private int pgs;
+
+    public DebugBook(int pages) {
+
+    }
+
+    public void DebugBook(int pgs)
    {
       pages = pgs;
    }
